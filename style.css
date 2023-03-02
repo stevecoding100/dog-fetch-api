@@ -530,7 +530,7 @@ textarea {
 
 @media (min-width: 400px) {
     .container {
-        width: 85%;
+        width: 100%;
         padding: 0;
     }
 }
@@ -540,7 +540,7 @@ textarea {
 
 @media (min-width: 550px) {
     .container {
-        width: 80%;
+        width: 100%;
     }
     .column,
     .columns {
@@ -1213,6 +1213,7 @@ header {
 }
 
 .card img {
+    width: 70%;
     border-radius: 4px;
     margin-bottom: 2.25rem;
     cursor: pointer;
@@ -1220,7 +1221,7 @@ header {
 
 @media (max-width: 720px) {
     .card img {
-        width: 100%;
+        width: 80%;
     }
 }
 
